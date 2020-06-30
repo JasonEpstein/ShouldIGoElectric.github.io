@@ -1,3 +1,5 @@
+alert("hellojs");
+
 var docRef = db.collection("cities").doc("SF");
 
 docRef.get().then(function(doc) {
